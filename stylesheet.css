@@ -1,0 +1,121 @@
+.page-wraper{
+    width: 375px;
+    height: 600px;
+    margin: auto;
+    background-color: hsl(225, 100%, 94%);
+    position: relative;
+}
+.page-wraper .img1{
+    display: block;
+    width: 375px;
+}
+.page-wraper .img2{
+    display: none;
+}
+svg {
+    /* width: 340px; */
+    width: 100%;
+    /* background-position: center center; */
+    object-fit: contain;
+}
+.content {
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    width: 340px;
+    height: 550px;
+    border-radius: 20px;
+    background-color: white;
+    border: 2px solid red;
+
+
+}
+.header{
+    text-align: center;
+    font-family: sans-serif;
+    margin: 20px auto;
+    font-size: 20px;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+.para {
+    text-align: center;
+    font-family: 'red hat display',sans-serif;
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+    padding: 5px;
+}
+.annual-plan{
+    border-radius: 10px;
+    margin: 20px;
+    background-color: hsl(225, 100%, 98%);
+    width: 300px;
+    height: 80px;
+    font-size: 16px;
+}
+.annual-plan svg{
+    position: absolute;
+    left: 40px;
+    padding-top: 15px;
+}
+.annual-plan h5 {
+    color: hsl(223, 47%, 23%);
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    left: 110px;
+    padding-top: 22px;
+    
+       
+}
+.price {
+    position: absolute;
+    left: 110px;
+    padding-top: 42px;
+    
+
+}
+.annual-plan a {
+    position: absolute;
+    right: 40px;
+    padding-top: 32px;
+}
+button{
+    text-align: center;
+    padding: 15px 55px 15px 55px;
+    border-radius: 10px;
+    border: 0px;
+    margin: 0 50px;
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;    
+}
+.cancel {
+    padding-top: 15px;
+    text-align: center;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+}
+
+@media( min-width:1440px) {
+    .page-wraper .img1{
+        display: none;
+        }
+    .page-wraper .img2{
+        display: flex;
+        width: 1440px;
+        height: 100vh;
+        background-color: hsl(225, 100%, 94%);
+        position: relative;
+    }
+    .content {
+        position: absolute;
+       
+        border-radius: 20px;
+        background-color: white;
+        border: 2px solid red;
+    
+    
+    }
+
+    }
