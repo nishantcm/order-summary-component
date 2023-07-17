@@ -1,6 +1,6 @@
 .page-wraper{
     width: 375px;
-    height: 600px;
+    height: 650px;
     margin: auto;
     background-color: hsl(225, 100%, 94%);
     position: relative;
@@ -13,35 +13,34 @@
     display: none;
 }
 svg {
-    /* width: 340px; */
     width: 100%;
-    /* background-position: center center; */
     object-fit: contain;
 }
 .content {
     position: absolute;
     top: 30px;
-    left: 15px;
+    left: 17px;
     width: 340px;
-    height: 550px;
+    height: 600px;
     border-radius: 20px;
     background-color: white;
-    border: 2px solid red;
-    
-
+    background-image: url(illustration-hero.svg);
+    background-size: 340px 200px;
+    background-repeat: no-repeat;
 }
 .header{
     text-align: center;
-    font-family: sans-serif;
-    margin: 20px auto;
+    font-family: 'Red Hat Display',sans-serif;
+    margin: 240px 0 20px     0;
     font-size: 20px;
     color: hsl(223, 47%, 23%);
     font-weight: 900;
 }
 .para {
     text-align: center;
-    font-family: 'red hat display',sans-serif;
+    font-family: 'Red Hat Display',sans-serif;
     font-size: 16px;
+    line-height: 25px;
     color: hsl(224, 23%, 55%);
     padding: 5px;
 }
@@ -62,6 +61,7 @@ svg {
     color: hsl(223, 47%, 23%);
     font-size: 16px;
     font-weight: 700;
+    font-family: 'Red Hat Display',sans-serif;
     position: absolute;
     left: 110px;
     padding-top: 22px;
@@ -72,26 +72,33 @@ svg {
     position: absolute;
     left: 110px;
     padding-top: 42px;
-    
-
+    font-family: 'Red Hat Display',sans-serif;
+    color: hsl(224, 23%, 55%);
 }
 .annual-plan a {
     position: absolute;
     right: 40px;
     padding-top: 32px;
+    font-family: 'Red Hat Display',sans-serif;
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
 }
 button{
     text-align: center;
-    padding: 15px 55px 15px 55px;
+    width: 300px;
+    padding: 18px 55px 18px 55px;
     border-radius: 10px;
     border: 0px;
-    margin: 0 50px;
+    margin: 0 20px;
     background-color: hsl(245, 75%, 52%);
     color: hsl(0, 0%, 100%);
-    font-weight: 700;    
+    font-weight: 700; 
+    font-family: 'Red Hat Display',sans-serif;   
 }
 .cancel {
-    padding-top: 15px;
+    font-family: 'Red Hat Display',sans-serif;
+    font-size: 15px;
+    padding-top: 25px;
     text-align: center;
     font-weight: 700;
     color: hsl(224, 23%, 55%);
