@@ -1,3 +1,9 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
 .page-wraper{
     width: 375px;
     height: 650px;
@@ -14,7 +20,6 @@
 }
 svg {
     width: 100%;
-    object-fit: contain;
 }
 .content {
     position: absolute;
@@ -42,7 +47,7 @@ svg {
     font-size: 16px;
     line-height: 25px;
     color: hsl(224, 23%, 55%);
-    padding: 5px;
+    padding: 5px 35px 5px 35px;
 }
 .annual-plan{
     border-radius: 10px;
@@ -105,24 +110,45 @@ button{
 }
 
 @media( min-width:1440px) {
+    .page-wraper {
+        width: 1440px;
+        height: 100vh;
+    }
     .page-wraper .img1{
         display: none;
         }
     .page-wraper .img2{
-        display: flex;
+        display: block;
         width: 1440px;
         height: 100vh;
-        background-color: hsl(225, 100%, 94%);
-        position: relative;
+    }
+    svg {
+        width: 100%;
     }
     .content {
         position: absolute;
-       
-        border-radius: 20px;
-        background-color: white;
-        border: 2px solid red;
-    
+        left: 500px;
+        top: 150px;
+        right: 500px;
+        bottom: 150px;
+        width: 400px;
+        background-image: url(illustration-hero.svg);
+        background-size: 400px 200px;
+        background-repeat: no-repeat;
     
     }
+    .para {
+        padding: 5px 25px 5px 25px;
+        margin: 0px;
+    }
+    .annual-plan{
+        width: 350px;
+        
+    }
+    button{
+        width: 350px;
+        margin: 0 25px;
+    }
+
 
     }
