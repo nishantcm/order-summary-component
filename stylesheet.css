@@ -88,6 +88,9 @@ svg {
     color: hsl(245, 75%, 52%);
     font-weight: 700;
 }
+.annual-plan a:active {
+    color: hsl(245, 97%, 75%);
+}
 button{
     text-align: center;
     width: 300px;
@@ -98,7 +101,11 @@ button{
     background-color: hsl(245, 75%, 52%);
     color: hsl(0, 0%, 100%);
     font-weight: 700; 
-    font-family: 'Red Hat Display',sans-serif;   
+    font-family: 'Red Hat Display',sans-serif; 
+    box-shadow: 0px 10px 20px 5px hsla(246, 77%, 86%, 0.8);  
+}
+button:active {
+    background-color: hsl(245, 97%, 75%);
 }
 .cancel {
     font-family: 'Red Hat Display',sans-serif;
@@ -108,6 +115,10 @@ button{
     font-weight: 700;
     color: hsl(224, 23%, 55%);
 }
+.cancel:active {
+    color: hsl(223, 47%, 23%);
+}
+
 
 @media( min-width:1440px) {
     .page-wraper {
@@ -149,6 +160,14 @@ button{
         width: 350px;
         margin: 0 25px;
     }
-
+    .annual-plan a:active {
+        color: hsl(245, 97%, 75%);
+    }
+    button:active {
+        background-color: hsl(245, 97%, 75%);
+    }
+    .cancel:active {
+        color: hsl(223, 47%, 23%);
+    }
 
     }
