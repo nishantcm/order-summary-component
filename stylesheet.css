@@ -121,9 +121,16 @@ button:active {
 
 
 @media( min-width:1440px) {
+    .page{
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
     .page-wraper {
         width: 1440px;
-        height: 100vh;
+        height: 900px;
+        
     }
     .page-wraper .img1{
         display: none;
